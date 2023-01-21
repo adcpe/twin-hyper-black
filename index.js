@@ -47,7 +47,7 @@ exports.decorateConfig = (config) =>
     cursorColor: YELLOW,
     cursorShape: 'BLOCK',
     lineHeight: 1.2,
-    selectionColor: YELLOW,
+    selectionColor: LIGHTYELLOW,
     borderColor: BORDER,
     fontSize: 14,
     css: `
