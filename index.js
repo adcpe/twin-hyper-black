@@ -44,10 +44,10 @@ exports.decorateConfig = (config) =>
     colors,
     foregroundColor: FOREGROUND,
     backgroundColor: BACKGROUND,
-    cursorColor: YELLOW,
+    cursorColor: PURPLE,
     cursorShape: 'BLOCK',
     lineHeight: 1.2,
-    selectionColor: LIGHTYELLOW,
+    selectionColor: LIGHTPURPLE,
     borderColor: BORDER,
     fontSize: 14,
     css: `
@@ -66,7 +66,7 @@ exports.decorateConfig = (config) =>
     }
     .tab_tab.tab_active {
       color: ${FOREGROUND};
-      border-top: 1px solid ${YELLOW} !important;
+      border-top: 1px solid ${PURPLE} !important;
       border-bottom: none !important;
       background: ${BACKGROUND} !important;
     }
